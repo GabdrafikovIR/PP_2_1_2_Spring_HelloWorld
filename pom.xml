@@ -22,11 +22,11 @@
             <version>6.2.2</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>6.2.2</version>
+            <version>5.3.14</version>
+            <scope>test</scope>
         </dependency>
 
 
@@ -59,11 +59,11 @@
             <scope>compile</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <!-- https://mvnrepository.com/artifact/org.scalatestplus/junit-4-13 -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.11.4</version>
+            <groupId>org.scalatestplus</groupId>
+            <artifactId>junit-4-13_3</artifactId>
+            <version>3.2.19.0</version>
             <scope>test</scope>
         </dependency>
 
