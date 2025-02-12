@@ -14,12 +14,10 @@ public class AppConfig {
         return helloWorld;
     }
 
-    @Bean(name = "cat")
+    @Bean(name="cat")
     @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
     public Cat getCat() {
-        Cat cat = new Cat();
-        cat.setName("Vasya");
-        return cat;
+        return new Cat("Vasya");
     }
 
 }
